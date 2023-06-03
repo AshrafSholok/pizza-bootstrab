@@ -1,0 +1,80 @@
+body{
+    margin: 0%;
+}
+.first{
+    background-image: url("/images/bg_3.jpg");
+    background-size: cover;
+    font-size: 25px;
+}
+.nav{
+    background-color: rgb(26, 24, 24);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.fokir{
+    color: rgb(234, 175, 24);
+    margin-left: 150px;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+.subnav{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 15px;
+    padding-right: 120px;
+    padding-top: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.subnav a{
+    padding-left: 40px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.subnav span{
+    color: rgb(234, 175, 24);
+}
+.subnav a:hover{
+    color: rgb(234, 175, 24);
+    transition: 0.5s;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.mcont{
+    margin-top: 350px;
+    padding-bottom: 350px;
+}
+.mcont p{
+    margin: 0;
+}
+.alex{
+    font-family: 'Assistant', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.second{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.content{
+    justify-content: right;
+    text-align: justify;
+    padding: 5%;
+}
+
+.gray{
+    color: gray;
+}
+
+.dancing{
+    font-family: 'Dancing Script', cursive;
+}
